@@ -46,5 +46,18 @@ public class Persona {
     public void setNombre(String nombre) {
         this.nombre = nombre;
 
+        public Persona();
+
+        public Persona(String nombre);
+        this.nombre=nombre;
+
+    }
+
+    public Persona(String nombre, int edad, String estatura, String id, String orientacionSexual) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.estatura = estatura;
+        this.id = id;
+        this.orientacionSexual = orientacionSexual;
     }
 }
